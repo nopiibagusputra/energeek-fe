@@ -1,29 +1,35 @@
-# energeek-fe
+# Assessment Energeek
 
-This template should help get you started developing with Vue 3 in Vite.
+Repositori Project Test
 
-## Recommended IDE Setup
+## Fitur Aplikasi
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. Menambah data Pelamar
 
-## Customize configuration
+## Framework Aplikasi
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Backend | Laravel 9.52.16 (PHP 8.2.15)
+2. Frontend | Vue 3 (Node v21.4.0)
+3. Database | MySQL
 
-## Project Setup
+## Instalasi dan Konfigurasi Frontend
 
-```sh
-npm install
-```
+1. Masuk ke folder frontend:
 
-### Compile and Hot-Reload for Development
+   ```bash
+   cd ../energeek-fe
+   ```
 
-```sh
-npm run dev
-```
+2. Instal dependensi Node.js:
 
-### Compile and Minify for Production
+   ```bash
+   npm install
+   ```
 
-```sh
-npm run build
-```
+3. Jalankan server pengembangan Vite:
+
+   ```bash
+   npm run dev
+   ```
+
+Aplikasi sudah dapat digunakan.
