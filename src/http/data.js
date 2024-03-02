@@ -18,8 +18,18 @@ export const useData = defineStore("data-store", () => {
     } catch (error) {}
   };
 
+  const storeData = async (form) => {
+    try {
+      const response = await axios.post("/v1/candidates", form);
+      return response;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return {
     getJobs,
     getSkills,
+    storeData,
   };
 });
